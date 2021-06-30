@@ -13,6 +13,9 @@
 		7CDCFCCA268C91330058FECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDCFCC8268C91330058FECC /* Main.storyboard */; };
 		7CDCFCCC268C91350058FECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDCFCCB268C91350058FECC /* Assets.xcassets */; };
 		7CDCFCCF268C91350058FECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDCFCCD268C91350058FECC /* LaunchScreen.storyboard */; };
+		7CDCFCD7268C94DF0058FECC /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCFCD6268C94DF0058FECC /* PhotoTableViewCell.swift */; };
+		7CDCFCD9268C9EAF0058FECC /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCFCD8268C9EAF0058FECC /* PhotoCollectionViewCell.swift */; };
+		7CDCFCDB268CB5710058FECC /* ProductCellViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCFCDA268CB5710058FECC /* ProductCellViewModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		7CDCFCCB268C91350058FECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CDCFCCE268C91350058FECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CDCFCD0268C91350058FECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDCFCD6268C94DF0058FECC /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		7CDCFCD8268C9EAF0058FECC /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		7CDCFCDA268CB5710058FECC /* ProductCellViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellViewModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				7CDCFCCB268C91350058FECC /* Assets.xcassets */,
 				7CDCFCCD268C91350058FECC /* LaunchScreen.storyboard */,
 				7CDCFCD0268C91350058FECC /* Info.plist */,
+				7CDCFCD6268C94DF0058FECC /* PhotoTableViewCell.swift */,
+				7CDCFCD8268C9EAF0058FECC /* PhotoCollectionViewCell.swift */,
+				7CDCFCDA268CB5710058FECC /* ProductCellViewModels.swift */,
 			);
 			path = "e-commerce";
 			sourceTree = "<group>";
@@ -138,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CDCFCD7268C94DF0058FECC /* PhotoTableViewCell.swift in Sources */,
+				7CDCFCD9268C9EAF0058FECC /* PhotoCollectionViewCell.swift in Sources */,
+				7CDCFCDB268CB5710058FECC /* ProductCellViewModels.swift in Sources */,
 				7CDCFCC7268C91330058FECC /* ViewController.swift in Sources */,
 				7CDCFCC3268C91330058FECC /* AppDelegate.swift in Sources */,
 				7CDCFCC5268C91330058FECC /* SceneDelegate.swift in Sources */,
